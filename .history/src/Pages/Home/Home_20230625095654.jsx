@@ -21,10 +21,10 @@ const Home = () => {
         //     </div>
         // </div>
         <div className='mt-3'>
-            <div className='lg:h-[310px] max-[600px]:h-[450px] bg-red-600  relative rounded-t-lg'>
-                <div className='lg:flex mt-4'>
-                    <div className='lg:w-1/2 flex justify-center items-center '>
-                        <img className=' lg:h-3/4 max-[600px]:h-60 lg:absolute lg:bottom-[-20px] lg:left-[50px] mt-9' src={profile} alt="profile" />
+            <div className='h-[310px] bg-red-600  relative rounded-t-lg'>
+                <div className='lg:flex '>
+                    <div className='lg:w-1/2 flex justify-center items-center'>
+                        <img className=' lg:h-3/4 max-[600px]:h-40 lg:absolute lg:bottom-[-20px] lg:left-[50px]' src={profile} alt="profile" />
                     </div>
                     <div className='lg:w-1/2'>
                         <div className='p-4'>
