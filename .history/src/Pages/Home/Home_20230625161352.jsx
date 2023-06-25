@@ -3,7 +3,7 @@ import profile from '../../assets/nayeem.jpg'
 import banner from '../../assets/background-image.jpg'
 import { FaLinkedinIn } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
-import Me from './me';
+import me from './me';
 
 
 const Home = () => {
