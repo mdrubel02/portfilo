@@ -4,6 +4,8 @@ import './index.css'
 import { RouterProvider } from 'react-router-dom'
 import router from './Layout/routes'
 import 'react-awesome-button/dist/themes/theme-blue.css';
+import Particle from './components/Particle/Particle'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

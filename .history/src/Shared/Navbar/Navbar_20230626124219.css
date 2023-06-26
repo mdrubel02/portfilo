@@ -1,0 +1,3 @@
+.line{
+    @apply after:content-[' '] after:ml-0.5 absolute bottom-[-4px] left-[30px] w-[30px] h-[2px];
+}

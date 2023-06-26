@@ -42,7 +42,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white rounded-b-lg drop-shadow-1xl'>
+                <div className='bg-white rounded-b-lg drop-shadow-2xl'>
                     <Me />
                 </div>
             </div>

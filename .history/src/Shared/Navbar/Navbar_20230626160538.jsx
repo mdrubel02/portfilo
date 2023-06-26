@@ -40,7 +40,7 @@ const Navbar = () => {
     </li>
 </>
     return (
-        <div className="navbar bg-gradient-to-r from-[#2eca7f] to-[#197448]  drop-shadow-1xl">
+        <div className="navbar bg-[#fff] drop-shadow-1xl">
             <div className="navbar-start">
             <div className="dropdown ">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

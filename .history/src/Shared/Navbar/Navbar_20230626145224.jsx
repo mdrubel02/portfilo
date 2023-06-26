@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
 
     const menu = <>
-    <li className='hover:border-b-2 border-b-[#2eca7f] text-primary duration-100'>
+    <li className='hover:border-b-2 border-b-[#2eca7f] text-[#2eca7f] duration-100'>
         <NavLink
             to="/home"
             aria-label="home"
@@ -27,20 +27,9 @@ const Navbar = () => {
         </NavLink>
 
     </li>
-    <li className='hover:border-b-2 border-b-[#2eca7f] text-[#2eca7f] duration-100'>
-        <NavLink
-            to="/projects"
-            aria-label="projects"
-            title="projects"
-            className={({isActive})=>isActive?"font-bold font-sans  text-[#2eca7f] transition-colors duration-200 ":"font-bold text-[#49515d] transition-colors duration-200 "}
-        >
-            Projects
-        </NavLink>
-
-    </li>
 </>
     return (
-        <div className="navbar bg-gradient-to-r from-[#2eca7f] to-[#197448]  drop-shadow-1xl">
+        <div className="navbar static">
             <div className="navbar-start">
             <div className="dropdown ">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

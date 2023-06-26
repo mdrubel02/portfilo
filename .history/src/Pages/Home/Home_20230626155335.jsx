@@ -27,7 +27,7 @@ const Home = () => {
                     className='lg:h-[310px] max-[600px]:h-[500px] relative rounded-t-lg'>
                     <div className='lg:flex mt-4'>
                         <div className='lg:w-5/12 flex justify-center items-center '>
-                            <img className=' lg:h-3/4 max-[600px]:h-60 lg:absolute lg:bottom-[-25px] lg:left-[75px] mt-9 z-40 hover:translate-y-3.5 cursor-pointer duration-100' src={profile} alt="profile" />
+                            <img className=' lg:h-3/4 max-[600px]:h-60 lg:absolute lg:bottom-[-25px] lg:left-[75px] mt-9 z-40 hover:translate-y-3.5 cursor-pointer' src={profile} alt="profile" />
                         </div>
                         <div className='lg:w-1/2 flex lg:justify-start  items-center max-[600px]:justify-center max-[600px]:mt-[-20px]'>
                             <div className='mt-20 w-auto'>
@@ -42,7 +42,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white rounded-b-lg drop-shadow-1xl'>
+                <div className='bg-white rounded-b-lg drop-shadow-2xl'>
                     <Me />
                 </div>
             </div>
