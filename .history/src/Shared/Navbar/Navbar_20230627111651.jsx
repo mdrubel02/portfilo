@@ -59,7 +59,7 @@ const Navbar = () => {
                     className="inline-flex items-center"
                 >
                     {/* <img src={logo} alt="" className='w-8/12'/> */}
-                    <span className='text-[#2eca7f] font-bold text-3xl '>Ibrahim</span>
+                    <span className='text-[#2eca7f] font-bold text-3xl '>IBRAHIM</span>
                 </Link>
                 <ul className="flex items-center hidden space-x-8 lg:flex text-[16px] uppercase">
                     {menu}
@@ -98,7 +98,7 @@ const Navbar = () => {
                                                 className="inline-flex items-center"
                                             >
                                                 {/* <img src={logo} alt="" className='w-8/12'/> */}
-                                                <span className='text-secondary font-bold text-3xl'>Ibrahim</span>
+                                                <span className='text-secondary font-bold text-3xl'>furniture</span>
                                             </Link>
                                         </div>
                                         <div>

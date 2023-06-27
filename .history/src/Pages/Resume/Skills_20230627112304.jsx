@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <div className=''>
             <h1 className='text-center mt-12 mb-8 ms-10 text-xl text-[#424242] font-bold font-poppins'>Coding <span className='text-primary '>Skills</span></h1>
-            <div className='grid lg:grid-cols-2 max-[600px]:grid-cols-1 lg:gap-4 lg:max-w-4xl mx-auto max-[600px]:ms-3 '>
+            <div className='grid lg:grid-cols-2 max-[600px]:grid-cols-1 gap-4 lg:max-w-4xl mx-auto max-[600px]:ms-3 '>
                 <div className='mb-6 max-[600px]:mx-auto' >
                     <p>Javascript</p>
                     <progress className="progress progress-success w-80" value={85} max="100"></progress>

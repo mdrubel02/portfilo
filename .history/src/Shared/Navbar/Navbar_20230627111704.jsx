@@ -98,7 +98,7 @@ const Navbar = () => {
                                                 className="inline-flex items-center"
                                             >
                                                 {/* <img src={logo} alt="" className='w-8/12'/> */}
-                                                <span className='text-secondary font-bold text-3xl'>Ibrahim</span>
+                                                <span className='text-secondary font-bold text-3xl'>furniture</span>
                                             </Link>
                                         </div>
                                         <div>
