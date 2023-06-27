@@ -41,14 +41,14 @@ const Navbar = () => {
         </li>
     </>
     return (
-        <div className="py-5 max-w-screen-xl mx-auto px-28  max-[600px]:px-4 font-jost sticky top-0 bg-white z-50 shadow-2xl">
+        <div className="py-5 mx-auto  max-[600px]:px-4 font-jost sticky top-0 bg-white z-50 shadow-sm">
             <div className="relative flex items-center justify-between z-30">
                 <Link
                     to="/"
                     className="inline-flex items-center"
                 >
                     {/* <img src={logo} alt="" className='w-8/12'/> */}
-                    <span className='text-[#2eca7f] font-bold text-3xl '>furniture</span>
+                    <span className='text-secondary font-bold text-3xl'>furniture</span>
                 </Link>
                 <ul className="flex items-center hidden space-x-8 lg:flex text-[16px] uppercase">
                     {menu}

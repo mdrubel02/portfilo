@@ -9,7 +9,7 @@ const Main = () => {
 
             <Navbar />
 
-            <div className='max-w-screen-lg mx-auto'>
+            <div>
                 <Outlet />
             </div>
             <Footer />

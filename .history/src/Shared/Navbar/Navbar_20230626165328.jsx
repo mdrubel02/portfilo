@@ -41,7 +41,7 @@ const Navbar = () => {
         </li>
     </>
     return (
-        <div className="py-5 max-w-screen-xl mx-auto px-28  max-[600px]:px-4 font-jost sticky top-0 bg-white z-50 shadow-2xl">
+        <div className="py-5 max-w-screen-xl mx-auto px-20  max-[600px]:px-4 font-jost sticky top-0 bg-white z-50 shadow-2xl">
             <div className="relative flex items-center justify-between z-30">
                 <Link
                     to="/"

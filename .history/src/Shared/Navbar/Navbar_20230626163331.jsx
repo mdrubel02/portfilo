@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import MenuAnimationPage from '../../components/animation/MenuAnimationPage';
+import AnimatedPage from '../../components/animation/animatedPage';
 
 
 const Navbar = () => {
@@ -41,14 +41,14 @@ const Navbar = () => {
         </li>
     </>
     return (
-        <div className="py-5 max-w-screen-xl mx-auto px-28  max-[600px]:px-4 font-jost sticky top-0 bg-white z-50 shadow-2xl">
+        <div className="py-5 mx-auto  max-[600px]:px-4 font-jost sticky top-0 bg-white z-50 shadow-sm">
             <div className="relative flex items-center justify-between z-30">
                 <Link
                     to="/"
                     className="inline-flex items-center"
                 >
                     {/* <img src={logo} alt="" className='w-8/12'/> */}
-                    <span className='text-[#2eca7f] font-bold text-3xl '>furniture</span>
+                    <span className='text-secondary font-bold text-3xl'>furniture</span>
                 </Link>
                 <ul className="flex items-center hidden space-x-8 lg:flex text-[16px] uppercase">
                     {menu}
@@ -77,7 +77,7 @@ const Navbar = () => {
                         </svg>
                     </button>
                     {isMenuOpen && (
-                        <MenuAnimationPage>
+                        <AnimatedPage>
                             <div className="absolute top-0 left-0 w-full">
                                 <div className="p-5 bg-white border rounded shadow-sm z-30">
                                     <div className="flex items-center justify-between mb-4">
@@ -113,7 +113,7 @@ const Navbar = () => {
                                     </nav>
                                 </div>
                             </div>
-                        </MenuAnimationPage>
+                        </AnimatedPage>
                     )}
                 </div>
             </div>

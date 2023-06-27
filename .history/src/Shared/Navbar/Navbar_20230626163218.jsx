@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import MenuAnimationPage from '../../components/animation/MenuAnimationPage';
+import AnimatedPage from '../../components/animation/animatedPage';
 
 
 const Navbar = () => {
@@ -41,43 +41,43 @@ const Navbar = () => {
         </li>
     </>
     return (
-        <div className="py-5 max-w-screen-xl mx-auto px-28  max-[600px]:px-4 font-jost sticky top-0 bg-white z-50 shadow-2xl">
+        <div className="py-5 mx-auto  max-[600px]:px-4 font-jost sticky top-0 bg-white z-50 shadow-sm">
             <div className="relative flex items-center justify-between z-30">
                 <Link
                     to="/"
                     className="inline-flex items-center"
                 >
                     {/* <img src={logo} alt="" className='w-8/12'/> */}
-                    <span className='text-[#2eca7f] font-bold text-3xl '>furniture</span>
+                    <span className='text-secondary font-bold text-3xl'>furniture</span>
                 </Link>
                 <ul className="flex items-center hidden space-x-8 lg:flex text-[16px] uppercase">
                     {menu}
                 </ul>
 
-                <div className="lg:hidden">
-                    <button
-                        aria-label="Open Menu"
-                        title="Open Menu"
-                        className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
-                        onClick={() => setIsMenuOpen(true)}
-                    >
-                        <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
-                            <path
-                                fill="currentColor"
-                                d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
-                            />
-                            <path
-                                fill="currentColor"
-                                d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"
-                            />
-                            <path
-                                fill="currentColor"
-                                d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"
-                            />
-                        </svg>
-                    </button>
-                    {isMenuOpen && (
-                        <MenuAnimationPage>
+                <AnimatedPage>
+                    <div className="lg:hidden">
+                        <button
+                            aria-label="Open Menu"
+                            title="Open Menu"
+                            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+                            onClick={() => setIsMenuOpen(true)}
+                        >
+                            <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
+                                <path
+                                    fill="currentColor"
+                                    d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
+                                />
+                                <path
+                                    fill="currentColor"
+                                    d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"
+                                />
+                                <path
+                                    fill="currentColor"
+                                    d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"
+                                />
+                            </svg>
+                        </button>
+                        {isMenuOpen && (
                             <div className="absolute top-0 left-0 w-full">
                                 <div className="p-5 bg-white border rounded shadow-sm z-30">
                                     <div className="flex items-center justify-between mb-4">
@@ -113,9 +113,9 @@ const Navbar = () => {
                                     </nav>
                                 </div>
                             </div>
-                        </MenuAnimationPage>
-                    )}
-                </div>
+                        )}
+                    </div>
+                </AnimatedPage>
             </div>
         </div>
     );
