@@ -4,15 +4,14 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {
-      fontFamily: {
-        jost: ["Jost", "sans-serif"],
+  daisyui: {
+    themes: [
+      {
+        "primary": "#2eca7f",
+
+        "secondary": "#49515d",
       },
-      colors:{
-        primary:'#2eca7f',
-      }
-    },
+    ],
   },
   plugins: [require("daisyui")],
 }

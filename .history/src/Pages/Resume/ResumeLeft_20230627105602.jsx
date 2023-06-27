@@ -10,7 +10,7 @@ const ResumeLeft = () => {
                         <div className="card-body">
                             <h2 className="card-title text-[#212121]">Sonargaon University(SU)</h2>
                             <p className='text-[#2eca7f]'>2022 <span>continue</span></p>
-                            <p className='text-[#212121]'>BS.C In Engineering Mechanical</p>
+                            <p>BS.C In Engineering Mechanical</p>
 
                         </div>
                     </div>
@@ -18,13 +18,13 @@ const ResumeLeft = () => {
                         <div className="card-body">
                             <h2 className="card-title text-[#212121]">Mymensingh Polytechnic</h2>
                             <p className='text-[#2eca7f]'>2016 <span className='ms-1'>-</span><span className='ms-1'>2020</span></p>
-                            <p className='text-[#212121]'>diploma in Engineering</p>
+                            <p>diploma in Engineering</p>
                         </div>
                     </div>
                     <div className="card rounded-none w-96  shadow-xl border-l-4 border-[#2eca7f] mt-4 max-[600px]:mx-auto">
                         <div className="card-body">
                             <h2 className="card-title text-[#212121]">Career Objective</h2>
-                            <p className='text-sm text-[#212121]'>I am a web developer who is proficient in both back-end and front-end frameworks. My passion lies in learning about the
+                            <p className='text-sm'>I am a web developer who is proficient in both back-end and front-end frameworks. My passion lies in learning about the
                                 latest technologies.</p>
                         </div>
                     </div>
