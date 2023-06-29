@@ -5,7 +5,6 @@ import About from "../Pages/About/About";
 import Projects from "../Pages/Projects/Projects";
 import Resume from "../Pages/Resume/Resume";
 import Contact from "../Pages/Contact/Contact";
-import Details from "../Pages/Details/Details";
 
 
 const router = createBrowserRouter([
@@ -19,11 +18,6 @@ const router = createBrowserRouter([
       { path: '/projects', element: <Projects /> },
       { path: '/resume', element: <Resume /> },
       { path: '/contact', element: <Contact /> },
-      { path: '/details/:id', element: <Details />, 
-      loader: async ({ params }) => {
-        return fetch(`http://localhost:5000/projects/${params.id}`);
-      },
-    }
     ]
   }
 ]);

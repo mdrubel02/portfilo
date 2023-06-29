@@ -19,11 +19,7 @@ const router = createBrowserRouter([
       { path: '/projects', element: <Projects /> },
       { path: '/resume', element: <Resume /> },
       { path: '/contact', element: <Contact /> },
-      { path: '/details/:id', element: <Details />, 
-      loader: async ({ params }) => {
-        return fetch(`http://localhost:5000/projects/${params.id}`);
-      },
-    }
+      { path: '/details/:id', element: <Details /> }
     ]
   }
 ]);

@@ -2,24 +2,17 @@ import React, { useEffect, useState } from 'react';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import AnimatedPage from '../../components/animation/animatedPage';
 import SingleProjects from './SingleProjects';
-import Spinner from '../../components/Spinner/Spinner';
 
 const Projects = () => {
     const [projects, setProjects] = useState([])
-    const [projectsLoader, setProjectsLoader] = useState(false)
 
-    useEffect(() => {
-        setProjectsLoader(true)
+    useEffect(()=>{
         fetch('http://localhost:5000/projects')
-            .then(res => res.json())
-            .then(data => setProjects(data))
-        setProjectsLoader(false)
-    }, [])
-
-
+        .then(res => res.json())
+        .then(data => setProjects(data))
+    },[])
     return (
-        <>
-        {projectsLoader ? <Spinner></Spinner>:  <AnimatedPage>
+        <AnimatedPage>
         <section className='mt-10 shadow-lg'>
             <SectionTitle title="My Projects"></SectionTitle>
             <div>
@@ -30,8 +23,7 @@ const Projects = () => {
                 </div>
             </div>
         </section>
-    </AnimatedPage>}
-        </>
+    </AnimatedPage>
     );
 };
 

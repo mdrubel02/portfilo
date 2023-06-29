@@ -17,7 +17,7 @@ const ResumeLeft = () => {
                     <div className="card rounded-none w-96  shadow-xl border-l-4 border-[#2eca7f] mt-4 max-[600px]:mx-auto">
                         <div className="card-body">
                             <h2 className="card-title text-[#212121]">Mymensingh Polytechnic</h2>
-                            <p className='text-[#2eca7f]'>2016 <span className='ms-1'>|</span><span className='ms-1'>2020</span></p>
+                            <p className='text-[#2eca7f]'>2016 <span className='ms-1'>-</span><span className='ms-1'>2020</span></p>
                             <p className='text-[#212121]'>diploma in Engineering</p>
                         </div>
                     </div>
