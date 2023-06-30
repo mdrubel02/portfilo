@@ -8,7 +8,7 @@ const Footer = () => {
                 <div>
                     <img width="50" height="50" src="assets/logo8.png" alt="" />
 
-                    <p>Designed and Developed by Md.Ibrahim in 2022-2023</p>
+                    <p>Designed and Developed by Md. Ibrahim in 2022-2023</p>
                 </div>
                 <div className='flex'>
                     {/* <span className="footer-title">THANKS</span>

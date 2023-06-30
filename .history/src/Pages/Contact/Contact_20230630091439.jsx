@@ -1,14 +1,9 @@
-import React from 'react';
-import banner from '../../assets/background-image.jpg'
+import React  from 'react';
 import AnimatedPage from '../../components/animation/animatedPage';
-import ResumeRight from './ResumeRight';
-import ResumeLeft from './ResumeLeft';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
-import Skills from './Skills';
-import { useTitle } from '../../components/useTitle';
 
-const Resume = () => {
-    useTitle('Resume')
+
+const Contact = () => {
     return (
         <AnimatedPage>
             <section className='mt-10 shadow-lg'>
@@ -16,19 +11,16 @@ const Resume = () => {
                 <div>
                     <div className='grid lg:grid-cols-2 max-[600px]:grid-cols-1 gap-4 lg:max-w-4xl mx-auto max-[600px]:ms-3'>
                         <div >
-                            <ResumeLeft />
+                           
                         </div>
                         <div>
-                            <ResumeRight />
+                           
                         </div>
                     </div>
-                </div>
-                <div className='lg:max-w-4xl mx-auto'>
-                    <Skills />
                 </div>
             </section>
         </AnimatedPage>
     );
 };
 
-export default Resume;
+export default Contact;
