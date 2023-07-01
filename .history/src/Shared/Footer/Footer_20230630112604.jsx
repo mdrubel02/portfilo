@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='text-white' >
             <footer className="footer md:p-10 md:flex md:items-center md:justify-between w-[95%] mx-auto">
                 <div>
-                    <img width="50" height="50" src="https://i.ibb.co/9VsZ8ty/ibrahim-01.png" alt="" />
+                    <img width="50" height="50" src="assets/logo8.png" alt="" />
 
                     <p className='text-secondary'>Designed and Developed by Md.Ibrahim in 2022-2023</p>
                 </div>
