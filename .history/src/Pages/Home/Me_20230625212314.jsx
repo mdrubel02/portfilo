@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/ibrahim_resume.pdf'
+import CV from '../../assets/Resume_Ibrahim.pdf'
 const me = () => {
     return (
         <section className='max-w-4xl mx-auto'>
