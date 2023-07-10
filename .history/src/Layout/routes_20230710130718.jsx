@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       { path: '/contact', element: <Contact /> },
       { path: '/details/:id', element: <Details />, 
       loader: async ({ params }) => {
-        return fetch(`https://portfolio-server-1tzn.onrender.com/projects/${params.id}`);
+        return fetch(` https://portfolio-server-1tzn.onrender.com/projects/${params.id}`);
       },
     }
     ]

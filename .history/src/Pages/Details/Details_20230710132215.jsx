@@ -39,7 +39,7 @@ const Details = () => {
                                 {
                                     data?.features.map((feature, index) =>
                                         <label className='flex mb-1' key={index}>
-                                            <input type="checkbox" checked defaultChecked className="checkbox checkbox-sm checkbox-accent mr-2 mt-[2px]" />
+                                            <input type="checkbox" checked className="checkbox checkbox-sm checkbox-accent mr-2 mt-[2px]" />
                                             <p className="">{feature}</p>
                                         </label>)
                                 }
